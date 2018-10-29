@@ -98,7 +98,7 @@ nav
   border: none;
   padding: 15px 25px 40px 25px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 20px;
   cursor: pointer;
   letter-spacing: 1px;
 }
@@ -130,7 +130,7 @@ tabs
     padding: 40px;
     z-index: 10;
     display: none;
-    font-size: 2vw;
+    font-size: 22px;
     border-radius: 8px;
     height: 100%;
     animation-name: ani;
@@ -249,11 +249,17 @@ Media Queries
 }
 
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
 
 
   a.link {
     font-size: 30px;
   }
+
+
+  .title {
+    font-size: 52px;
+  }
+
 
 }
