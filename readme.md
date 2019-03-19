@@ -1,4 +1,4 @@
-<h3>deepSeaCoding.com version 2.0<h3>
+<h3>deepSeaCoding.com version 2.0</h3>
     
 <p>Hello everybody! This is the complete makeover of my personal web developer's (and more) site. It summarizes all my professional activities and services and serves also as a portfolio</p>
 <p>So, why a makeover?</p>
