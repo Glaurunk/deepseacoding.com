@@ -1,0 +1,100 @@
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Typography
+
+.fs-12 {
+  font-size: 1.2em;
+}
+
+.fs-14 {
+  font-size: 1.4em;
+}
+
+.fs-16 {
+  font-size: 1.6em;
+}
+
+.fs-18 {
+  font-size: 1.8em;
+}
+
+.fs-20 {
+  font-size: 2em;
+}
+
+// Colors
+.text-black {
+  color: black;
+}
+
+.text-black:hover {
+  color: lighten(black, 20%);
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.text-yellow:hover {
+  color: darken($yellow, 20%);
+}
+
+.text-magenda {
+  color: $magenda;
+}
+
+.text-magenda:hover {
+  color: darken($magenda, 10%);
+}
+
+.text-cyan {
+  color: $cyan;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-grey:hover {
+  color: darken($grey, 20%);
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-magenda {
+  background-color: $magenda;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+////  cookieConsent
+
+.cookie-consent {
+  text-align: center;
+  background-color: $grey;
+  padding: 10px;
+  width: 100%;
+  color: black;
+}
+
+.cookie-consent__agree {
+  border-radius: 8px;
+  padding: 3px 20px;
+  margin-left: 3em;
+  background-color: black;
+  color: $grey;
+}
