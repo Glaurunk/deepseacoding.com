@@ -1,0 +1,265 @@
+/* This is the main stylesheet or deeSeaCoding.com */
+
+
+
+/* --------------------------------------------
+General
+-------------------------------------------- */
+
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.grey {
+  color: #ccc;
+}
+
+.black {
+  color: #000;
+}
+
+.cyan {
+  color: #009de0;
+}
+
+.yellow {
+  color: #ffed00;
+}
+
+.magenda {
+  color: #c4007a;
+}
+
+
+
+
+/* --------------------------------------------
+Banner - Header
+-------------------------------------------- */
+.lang {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.lang a {
+  text-decoration: none;
+}
+
+.lang a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 800px;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+.title {
+  color: #ccc;
+  text-align: center;
+  font-size: 4vw;
+  margin-top: -6%
+}
+
+.subs {
+  color: #ccc;
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: 5%;
+}
+
+/* --------------------------------------------
+nav
+-------------------------------------------- */
+
+
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  max-width: 1200px;
+}
+
+.but {
+  background-color: #000;
+  border: none;
+  padding: 15px 25px 40px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.but:focus {
+  outline: 0;
+}
+
+.active {
+  background-color: #ccc;
+  color: #000;
+  border-radius: 8px 8px 0 0;
+}
+
+/* --------------------------------------------
+tabs
+-------------------------------------------- */
+
+@keyframes ani {
+  from  {height: 0;}
+  to {height: 300px;}
+}
+
+.tabs {
+    margin-top: -16px;
+    background-color: #ccc;
+    min-width: 160px;
+    overflow: auto;
+    padding: 40px;
+    z-index: 10;
+    display: none;
+    font-size: 22px;
+    border-radius: 8px;
+    height: 100%;
+    animation-name: ani;
+    animation-duration: 0.5s;
+}
+
+.close {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: #000;
+  float: right;
+  background-color: #aaa;
+}
+
+.noflex {
+  flex: none;
+  background-color: red;
+}
+/* --------------------------------------------
+orbitals
+-------------------------------------------- */
+
+.images {
+  z-index: -1;
+}
+
+img.orb {
+  display: block;
+  width: 70%;
+  margin: 50px auto 0 auto;
+  z-index: -10;
+}
+
+
+/* --------------------------------------------
+footer
+-------------------------------------------- */
+
+.socials {
+  display: flex;
+  justify-content: center;}
+
+.socials img {
+  width: 30px;
+  padding: 0 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+
+/* --------------------------------------------
+Media Queries
+-------------------------------------------- */
+
+@media screen and (max-width: 820px) {
+
+
+
+  .lang {
+    float: none;
+  }
+
+  .nav-ul {
+    display: block;
+  }
+
+  .subs {
+  font-size: 2.5vw
+  }
+
+  .but {
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .active {
+    background-color: #000;
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .tabs {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  .icons img {
+    height: 200px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+  .icons img {
+    height: 50px;
+  }
+
+  .title {
+    margin-top: -7%;
+  }
+
+  .close {
+    padding: 10px;
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+  a.link {
+    font-size: 30px;
+  }
+
+
+  .title {
+    font-size: 52px;
+  }
+
+
+}
