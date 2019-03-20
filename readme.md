@@ -13,5 +13,5 @@
  <p>Stathis Andreou @ deepSeaCoding.com
     
     
- <p><em>P.S. You can check the old code in folder version1 ro in the original repository.<em><p>
+ <p><em>P.S. You can check the old code in folder "version1" or in the original repository.<em><p>
     
