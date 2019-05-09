@@ -52,7 +52,8 @@
               <li class="list-group-item bg-grey">{{ $t('message.webA')}}</li>
               <li class="list-group-item bg-grey"><a href="https://ribbonsofeuphoria.com">ribbonsofeuphoria.com</a><br>{{ $t('message.webB')}}</li>
               <li class="list-group-item bg-grey"><a href="https://tetradiamagazine.gr">tetradiamagazine.gr</a><br>{{ $t('message.webC')}}</li>
-              <li class="list-group-item bg-grey"><a href="http://kuakomekiki.com">kuakomekiki.com</a><br>{{ $t('message.webD')}}<a href="http://www.pgworks.gr">pgworks.gr </a>{{ $t('message.webE')}}<a href="http://mariabacha.com"> {{ $t('message.webF')}}</a></li>
+              <!-- <li class="list-group-item bg-grey"><a href="http://kuakomekiki.com">kuakomekiki.com</a><br>{{ $t('message.webD')}}<a href="http://www.pgworks.gr">pgworks.gr </a>{{ $t('message.webE')}}<a href="http://mariabacha.com"> {{ $t('message.webF')}}</a></li> -->
+              <li class="list-group-item bg-grey"><a href="https://deepseacoding.com/projects/wpcomicstore/">Retro Comics</a><br>{{ $t('message.webG')}}</li>
             </ul>
           </div> <!-- here ends list div -->
         </div> <!-- here ends collapse -->

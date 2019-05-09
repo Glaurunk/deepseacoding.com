@@ -49,6 +49,7 @@ const messages = {
       webD: 'The Kuakomekiki team webpage uses a customized Wordpress template and hand-painted graphics. Made in colaboaration with ',
       webE: 'and',
       webF: 'Maria Bacha.',
+      webG: 'The website of an imaginary comic store. Based on the popular Wordpress/Woocommerce platform, it includes a customized theme',
 // Typography tab
       typo1: 'Design of books, e-books and magazines for publishing companies and individuals',
       typo2: 'Design of book and magazine covers, leaflets and posters',
@@ -120,6 +121,8 @@ const messages = {
       webD: 'Η ιστοσελίδα της ομάδας Kuakomekiki είναι κατασκευασμένη πάνω στην πλατφόρμα Wordpress με τροποποιημένο προϋπάρχον template. Σε συνεργασία με την ',
       webE: 'και την',
       webF: 'Μάρια Μπαχά.',
+      webG: 'Η ιστοσελίδα ενός εικονικού καταστήματος κόμικ, με προσαρμοσμένο θέμα. Βασισμένh στη δημοφιλή πλατφόρμα Wordpress με τη χρήση του πρόσθετου Woocommerce',
+
 // Typography tab
       typo1: 'Σχεδιασμός βιβλίων, ηλεκτρονικών βιβλίων και περιοδικών για εκδότες και ιδιώτες',
       typo2: 'Σχεδιασμός εξωφύλλων, εντύπων, φυλλαδίων, καρτών, αφισσών κ.ο.κ. παντός σχήματος',
