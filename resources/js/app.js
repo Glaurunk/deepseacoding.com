@@ -50,6 +50,7 @@ const messages = {
       webE: 'and',
       webF: 'Maria Bacha.',
       webG: 'The website of an imaginary comic store. Based on the popular Wordpress/Woocommerce platform, it includes a customized theme',
+      webH: 'The website of an imaginary vinyl store. Based on the popular Wordpress/Woocommerce platform, with a Storefront theme with minimal modifications. Minimum resources, minimum downtime!',
 // Typography tab
       typo1: 'Design of books, e-books and magazines for publishing companies and individuals',
       typo2: 'Design of book and magazine covers, leaflets and posters',
@@ -122,7 +123,7 @@ const messages = {
       webE: 'και την',
       webF: 'Μάρια Μπαχά.',
       webG: 'Η ιστοσελίδα ενός εικονικού καταστήματος κόμικ, με προσαρμοσμένο θέμα. Βασισμένη στη δημοφιλή πλατφόρμα Wordpress με τη χρήση του πρόσθετου Woocommerce',
-
+      webH: 'Η ιστοσελίδα ενός εικονικού δισκοπωλείου. Βασισμένη στη δημοφιλή πλατφόρμα Wordpress με τη χρήση του πρόσθετου Woocommerce και του γνωστού θέματος Storefront με μικρές τροποποιήσεις. Ελάχιστοι πόροι, γρήγορη υλοποίηση!',
 // Typography tab
       typo1: 'Σχεδιασμός βιβλίων, ηλεκτρονικών βιβλίων και περιοδικών για εκδότες και ιδιώτες',
       typo2: 'Σχεδιασμός εξωφύλλων, εντύπων, φυλλαδίων, καρτών, αφισσών κ.ο.κ. παντός σχήματος',

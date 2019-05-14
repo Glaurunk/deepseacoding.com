@@ -54,6 +54,7 @@
               <li class="list-group-item bg-grey"><a href="https://tetradiamagazine.gr">tetradiamagazine.gr</a><br>{{ $t('message.webC')}}</li>
               <li class="list-group-item bg-grey"><a href="http://kuakomekiki.com">kuakomekiki.com</a><br>{{ $t('message.webD')}}<a href="http://www.pgworks.gr">pgworks.gr </a>{{ $t('message.webE')}}<a href="http://mariabacha.com"> {{ $t('message.webF')}}</a></li>
               <li class="list-group-item bg-grey"><a href="https://deepseacoding.com/projects/wpcomicstore/">Retro Comics</a> [demo]<br>{{ $t('message.webG')}}</li>
+              <li class="list-group-item bg-grey"><a href="https://deepseacoding.com/projects/wpvinyllamusic/">Vinylla Music</a> [demo]<br>{{ $t('message.webH')}}</li>
             </ul>
           </div> <!-- here ends list div -->
         </div> <!-- here ends collapse -->
